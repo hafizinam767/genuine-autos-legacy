@@ -19,6 +19,7 @@ const defaultUrl = process.env.NEXT_PUBLIC_APP_URL
 
 export const metadata: Metadata = {
   metadataBase: defaultUrl,
+  alternates: { canonical: "/" },
   title: "Genuine Autos Legacy - Quality Auto Parts in Pakistan",
   description:
     "Genuine Parts for Suzuki, Toyota, Honda, KIA, MG, CHANGAN & ALL Wheel Drive Models. Near Ali Town Orange Line Station & Pizza Online Basement, Faisal Zaman Plaza, Thokar Niaz Baig, Raiwind Road Lahore, Pakistan. Contact: Mehar Zulfeqar Ali +92-332-4131636 / +92-326-4748635. Mon-Sat: 9AM-10PM, Sun: 10AM-10PM",
